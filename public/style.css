@@ -1,0 +1,95 @@
+@import url("reset.css");
+
+.content-section{
+    margin-bottom: 20px;
+    padding: 19px;
+    max-height: 1070px;
+    min-height: 320px;
+    max-width: 1102px;
+    min-width: 342px;
+    box-shadow: rgba(0,0,0,0.23) 0 3px 10px 0, rgba(0,0,0,0.16) 0 3px 10px 0;
+    
+}
+.content-section h1{
+    margin: 20px 0 10px 0;
+    font-size: 36px;
+    
+}
+.content-section p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+summary{
+    margin: 20px 0 20px 0;
+    padding: 8px 30px;
+    width: 105px;
+    height: 20px;
+    background-color: #03a9f3;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    box-shadow: rgba(0,0,0,0.23) 0 3px 10px 0, rgba(0,0,0,0.16) 0 3px 10px 0;
+}
+
+.header {
+    position: relative;
+    min-height: 50px;
+    background-color: #5264ae;
+}
+
+.header-logo,
+.header-contact {
+    display: none;
+}
+
+.header-btn {
+    position: absolute;
+    right: 0;
+
+    height: 30px;
+    border: none;
+    background-color:#5264ae;
+}
+
+@media screen {
+    
+}
+
+.toggle {
+    height: 500px;
+}
+
+.counter {
+  border: 1px solid white;
+  min-height: 150px;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.counter .counter-btn {
+  background-color: mediumseagreen;
+  color: white;
+  width: 70px;
+  height: 30px;
+  margin: 20px 10px;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 5px 5px 8px lightgray;
+}
+
+.counter .counter-btn:hover {
+  cursor: pointer;
+}
+
+.counter .contents {
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.counter input {
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin: 10px;
+}

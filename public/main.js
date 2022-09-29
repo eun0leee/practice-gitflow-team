@@ -19,5 +19,3 @@ const handleInput = () => {
 
     box.innerText(`${val} 명`);
 }
-
-

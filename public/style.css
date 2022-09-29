@@ -1,5 +1,10 @@
 @import url("reset.css");
 
+
+.toggle {
+    height: 500px;
+}
+
 .counter {
   border: 1px solid white;
   min-height: 150px;
@@ -34,3 +39,4 @@
   outline: none;
   margin: 10px;
 }
+

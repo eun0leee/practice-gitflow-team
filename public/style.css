@@ -1,1 +1,36 @@
 @import url("reset.css");
+
+.counter {
+  border: 1px solid white;
+  min-height: 150px;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.counter .counter-btn {
+  background-color: green;
+  color: white;
+  width: 70px;
+  height: 30px;
+  margin: 20px 10px;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 5px 5px 8px lightgray;
+}
+
+.counter .counter-btn:hover {
+  cursor: pointer;
+}
+
+.counter .contents {
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.counter input {
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin: 10px;
+}

@@ -1,1 +1,25 @@
 @import url("reset.css");
+
+.header {
+    position: relative;
+    min-height: 50px;
+    background-color: #5264ae;
+}
+
+.header-logo,
+.header-contact {
+    display: none;
+}
+
+.header-btn {
+    position: absolute;
+    right: 0;
+
+    height: 30px;
+    border: none;
+    background-color:#5264ae;
+}
+
+@media screen {
+    
+}
